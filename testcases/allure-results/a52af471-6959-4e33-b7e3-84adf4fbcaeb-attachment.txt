@@ -1,0 +1,33 @@
+INFO     apiautotest:conftest.py:37 日志初始化成功
+INFO     apiautotest:driver.py:60 chrome 启动成功
+INFO     apiautotest:driver.py:64 https://mail.163.com/ 打开成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:211 获取元素【页面是否出现扫码登录】的文字是:
+INFO     apiautotest:driver.py:103 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="60716a535eab642f2b46ca980c511b49", element="f.73AF6DD8ECA471D385AF153393833FA4.d.9D11AAF0DCEBE72F2383EA1320A3F634.e.34")>】成功
+INFO     apiautotest:driver.py:103 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【邮箱账号或手机号码】内容成功
+INFO     apiautotest:driver.py:152 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+INFO     apiautotest:driver.py:103 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入密码】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+INFO     apiautotest:driver.py:136 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【写信】,通过【xpath】,值是【//li[@role='button' and .//span[text()='写 信']]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【收件人】内容成功
+INFO     apiautotest:driver.py:152 向元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,输入【】成功
+INFO     apiautotest:driver.py:103 定位元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【主题】内容成功
+INFO     apiautotest:driver.py:152 向元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,输入【自动化测试的主题啦啦啦啦啦2】成功
+INFO     apiautotest:driver.py:103 定位元素【body frame】,通过【xpath】,值是【//*[@class="APP-editor-edtr"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="60716a535eab642f2b46ca980c511b49", element="f.73AF6DD8ECA471D385AF153393833FA4.d.272E1B3B895D1CC6343EC2A1F2727176.e.213")>】成功
+INFO     apiautotest:driver.py:103 定位元素【body】,通过【xpath】,值是【/html/body】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【body】内容成功
+INFO     apiautotest:driver.py:152 向元素【body】,通过【xpath】,值是【/html/body】,输入【六婶火222222锅55555555】成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【发送】,通过【xpath】,值是【//footer[@class="jp0"]/div[1]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【发送成功的text】,通过【xpath】,值是【//div[@id="dvContainer"]/div[2]/div[2]/section/h1】,定位成功
+INFO     apiautotest:driver.py:211 获取元素【发送成功的text】的文字是:
+INFO     apiautotest:driver.py:136 点击元素【首页】,通过【xpath】,值是【//nav[@id="dvMultiTabWrapper"]/div[1]/ul/li[1]/div[3]】,点击成功

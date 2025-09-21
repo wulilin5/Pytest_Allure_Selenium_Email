@@ -1,0 +1,24 @@
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【写信】,通过【xpath】,值是【//li[@role='button' and .//span[text()='写 信']]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【收件人】内容成功
+INFO     apiautotest:driver.py:152 向元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,输入【2331651152@qq.com】成功
+INFO     apiautotest:driver.py:103 定位元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【主题】内容成功
+INFO     apiautotest:driver.py:152 向元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,输入【】成功
+INFO     apiautotest:driver.py:103 定位元素【body frame】,通过【xpath】,值是【//*[@class="APP-editor-edtr"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="e12842b926a9662e4227954be1ea83e7", element="f.8D591DCA91F46AE90A795A498957C825.d.33CF9EF732DFB62298A1582D7D9A9026.e.664")>】成功
+INFO     apiautotest:driver.py:103 定位元素【body】,通过【xpath】,值是【/html/body】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【body】内容成功
+INFO     apiautotest:driver.py:152 向元素【body】,通过【xpath】,值是【/html/body】,输入【】成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【发送】,通过【xpath】,值是【//footer[@class="jp0"]/div[1]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【收件人输入框为空】,通过【xpath】,值是【//div[contains(@class, 'nui-editableAddr') and contains(@title, '@')]】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【收件人输入框为空】,通过【xpath】,值是【//div[contains(@class, 'nui-editableAddr') and contains(@title, '@')]】,定位成功
+ERROR    apiautotest:driver.py:305 判断元素【收件人输入框为空】是否为空失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 297, in base_is_input_empty_div
+    input_text = self.base_get_value_div(ele_info, attr="title")
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 279, in base_get_value_div
+    name = self.get_locator(ele_info)[2]
+IndexError: tuple index out of range

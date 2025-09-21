@@ -1,0 +1,26 @@
+{
+
+  "send_email_000": {
+    "address": "2331651152@qq.com",
+    "theme": "加油呀",
+    "body": "开开心心的!!Be Happy!!!",
+    "success": true,
+    "expect_result": null
+  },
+  "send_email_001": {
+    "address": "",
+    "theme": "",
+    "body": "",
+    "success": false,
+    "expect_result": "请填写收件人地址后再发送"
+  },
+  "send_email_002": {
+    "address": "2331651152@qq.com",
+    "theme": "",
+    "body": "",
+    "success": false,
+    "expect_result": "确定真的不需要写主题吗？"
+  }
+
+}
+

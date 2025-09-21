@@ -1,0 +1,8 @@
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+ERROR    apiautotest:driver.py:138 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 135, in click
+    wait.until(click_success(locator))
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:

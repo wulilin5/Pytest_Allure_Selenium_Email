@@ -1,0 +1,6 @@
+text: 
+是否存在元素: True
+inputtext: 2331651152@qq.com
+is_empty: False
+text: 确定真的不需要写主题吗？
+erro_info:  确定真的不需要写主题吗？

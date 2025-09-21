@@ -1,0 +1,88 @@
+2025-07-23 16:50:29,023 INFO [apiautotest] [conftest.py (aalogger_init:37)] - 日志初始化成功
+2025-07-23 16:50:31,500 INFO [apiautotest] [driver.py (__init__:60)] - chrome 启动成功
+2025-07-23 16:50:35,725 INFO [apiautotest] [driver.py (get:64)] - https://mail.163.com/ 打开成功
+2025-07-23 16:50:35,739 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:35,743 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:35,757 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 16:50:35,766 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 16:50:35,784 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="6ace1f10b7c8cb5813b2409f0185939b", element="f.B00DCAE8EDB3EA839036353FC2C52B0F.d.BCB10A6B9FC05EACC58B1F3C576FDA71.e.33")>】成功
+2025-07-23 16:50:35,790 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:35,810 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 16:50:35,861 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wjk11】成功
+2025-07-23 16:50:35,869 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:35,883 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 16:50:35,933 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【wjk09211】成功
+2025-07-23 16:50:36,038 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 16:50:36,045 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【用户名是否为空】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:36,055 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【用户名是否为空】的属性【value】是:wjk11
+2025-07-23 16:50:36,060 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【密码是否为空】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:36,065 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【密码是否为空】的属性【value】是:wjk09211
+2025-07-23 16:50:36,572 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【错误提示信息：账号或密码错误】,通过【xpath】,值是【//div[text()='账号或密码错误']】,定位成功
+2025-07-23 16:50:36,577 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【错误提示信息：账号或密码错误】的文字是:账号或密码错误
+2025-07-23 16:50:37,382 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:37,387 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:37,392 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 16:50:37,400 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 16:50:37,415 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="6ace1f10b7c8cb5813b2409f0185939b", element="f.B00DCAE8EDB3EA839036353FC2C52B0F.d.754BD64C766DF21A9973DADB04AE99B5.e.82")>】成功
+2025-07-23 16:50:37,421 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:37,435 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 16:50:37,453 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+2025-07-23 16:50:37,458 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:37,472 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 16:50:37,509 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+2025-07-23 16:50:37,588 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 16:50:37,597 INFO [apiautotest] [driver.py (switch_to_default:167)] - 切换到默认页面成功
+2025-07-23 16:50:41,506 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【判断是否登录成功: 出现首页两个字】,通过【xpath】,值是【//nav[@id="dvMultiTabWrapper"]/div[1]/ul/li[1]/div[3]】,定位成功
+2025-07-23 16:50:41,561 INFO [apiautotest] [driver.py (click:136)] - 点击元素【退出登录第一步：点击下拉框】,通过【css selector】,值是【b.js-component-icon.kJ0.nui-ico.nui-ico-dArr】,点击成功
+2025-07-23 16:50:41,604 INFO [apiautotest] [driver.py (click:136)] - 点击元素【退出登录第二步：点击退出登录】,通过【xpath】,值是【//div[text()='退出登录']】,点击成功
+2025-07-23 16:50:45,497 INFO [apiautotest] [driver.py (click:136)] - 点击元素【退出之后点击重新登录：到登录界面】,通过【xpath】,值是【//a[text()='重新登录']】,点击成功
+2025-07-23 16:50:46,780 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:46,789 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:46,795 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 16:50:46,800 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 16:50:46,811 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="6ace1f10b7c8cb5813b2409f0185939b", element="f.B00DCAE8EDB3EA839036353FC2C52B0F.d.9D199B0B7806C49C2D90C803614E99B3.e.260")>】成功
+2025-07-23 16:50:46,815 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:46,841 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 16:50:46,866 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wjk11】成功
+2025-07-23 16:50:46,874 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:46,890 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 16:50:46,918 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【】成功
+2025-07-23 16:50:46,984 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 16:50:46,999 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【用户名是否为空】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:47,017 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【用户名是否为空】的属性【value】是:wjk11
+2025-07-23 16:50:47,022 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【密码是否为空】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:47,027 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【密码是否为空】的属性【value】是:
+2025-07-23 16:50:47,401 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【错误提示信息：请输入密码】,通过【xpath】,值是【//div[text()='请输入密码']】,定位成功
+2025-07-23 16:50:47,407 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【错误提示信息：请输入密码】的文字是:请输入密码
+2025-07-23 16:50:48,175 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:48,179 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:48,184 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 16:50:48,191 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 16:50:48,200 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="6ace1f10b7c8cb5813b2409f0185939b", element="f.B00DCAE8EDB3EA839036353FC2C52B0F.d.95FE8EA6AD3A233DC0414698DDF0DE2F.e.309")>】成功
+2025-07-23 16:50:48,207 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:48,221 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 16:50:48,244 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【】成功
+2025-07-23 16:50:48,248 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:48,262 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 16:50:48,285 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【wjk09211】成功
+2025-07-23 16:50:48,358 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 16:50:48,378 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【用户名是否为空】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:48,383 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【用户名是否为空】的属性【value】是:
+2025-07-23 16:50:48,768 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【错误提示信息：请输入账号】,通过【xpath】,值是【//div[text()='请输入账号']】,定位成功
+2025-07-23 16:50:48,776 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【错误提示信息：请输入账号】的文字是:请输入账号
+2025-07-23 16:50:59,754 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:59,775 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 16:50:59,786 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 16:50:59,792 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 16:50:59,805 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="6ace1f10b7c8cb5813b2409f0185939b", element="f.B00DCAE8EDB3EA839036353FC2C52B0F.d.D234AF4FA87D9A8110EC36EC3EEAAF48.e.362")>】成功
+2025-07-23 16:50:59,811 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:50:59,827 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 16:50:59,849 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【】成功
+2025-07-23 16:50:59,856 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 16:50:59,876 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 16:50:59,910 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【】成功
+2025-07-23 16:50:59,993 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 16:51:00,001 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【用户名是否为空】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 16:51:00,009 INFO [apiautotest] [driver.py (get_attribute:262)] - 获取元素【用户名是否为空】的属性【value】是:
+2025-07-23 16:51:00,453 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【错误提示信息：请输入账号】,通过【xpath】,值是【//div[text()='请输入账号']】,定位成功
+2025-07-23 16:51:00,468 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【错误提示信息：请输入账号】的文字是:请输入账号

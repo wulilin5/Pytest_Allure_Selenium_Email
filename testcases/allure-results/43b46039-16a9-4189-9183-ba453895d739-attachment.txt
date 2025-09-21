@@ -1,0 +1,10 @@
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击成功
+INFO     apiautotest:driver.py:136 点击元素【新增联系人】,通过【xpath】,值是【//span[text()='新建联系人']】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入联系人姓名】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,输入【Bob】成功
+INFO     apiautotest:driver.py:103 定位元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入联系人手机号】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,输入【bob@qq.com】成功
+INFO     apiautotest:driver.py:136 点击元素【点击确认】,通过【xpath】,值是【//span[text()='确 定']】,点击成功

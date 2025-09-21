@@ -1,0 +1,56 @@
+INFO     apiautotest:conftest.py:37 日志初始化成功
+INFO     apiautotest:driver.py:60 chrome 启动成功
+INFO     apiautotest:driver.py:64 https://mail.163.com/ 打开成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:211 获取元素【页面是否出现扫码登录】的文字是:
+INFO     apiautotest:driver.py:103 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="39c425d5624903278641bdd200f6ab55", element="f.534EFE9A8EFE0EAA8E1F7A1D1AE04294.d.56C22A2F264C9DDBFA916090E6C58823.e.31")>】成功
+INFO     apiautotest:driver.py:103 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【邮箱账号或手机号码】内容成功
+INFO     apiautotest:driver.py:152 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+INFO     apiautotest:driver.py:103 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入密码】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+INFO     apiautotest:driver.py:136 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【首页】,通过【xpath】,值是【//nav[@id="dvMultiTabWrapper"]/div[1]/ul/li[1]/div[3]】,点击成功
+INFO     apiautotest:driver.py:136 点击元素【写信】,通过【xpath】,值是【//li[@role='button' and .//span[text()='写 信']]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【收件人】内容成功
+INFO     apiautotest:driver.py:152 向元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,输入【2331651152@qq.com】成功
+INFO     apiautotest:driver.py:103 定位元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【主题】内容成功
+INFO     apiautotest:driver.py:152 向元素【主题】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input】,输入【自动化测试的主题啦啦啦啦啦2】成功
+ERROR    apiautotest:driver.py:162 切换到iframe:【{'name': 'body frame', 'type': 'xpath', 'value': '//*[@class="APP-editor-edtr"]/iframe'}】失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 159, in switch_to_frame
+    self.driver.switch_to.frame(frame)
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 94, in frame
+    self._driver.execute(Command.SWITCH_TO_FRAME, {'id': frame_reference})
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing 'ELEMENT'
+  (Session info: chrome=138.0.7204.102)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff640b57005+76917]
+	GetHandleVerifier [0x0x7ff640b57060+77008]
+	(No symbol) [0x0x7ff640909dea]
+	(No symbol) [0x0x7ff6409b2ac3]
+	(No symbol) [0x0x7ff64098846a]
+	(No symbol) [0x0x7ff6409b065c]
+	(No symbol) [0x0x7ff640988243]
+	(No symbol) [0x0x7ff640951431]
+	(No symbol) [0x0x7ff6409521c3]
+	GetHandleVerifier [0x0x7ff640e2d32d+3051421]
+	GetHandleVerifier [0x0x7ff640e27983+3028467]
+	GetHandleVerifier [0x0x7ff640e4591d+3151245]
+	GetHandleVerifier [0x0x7ff640b718ce+185662]
+	GetHandleVerifier [0x0x7ff640b7978f+218111]
+	GetHandleVerifier [0x0x7ff640b5fb84+112628]
+	GetHandleVerifier [0x0x7ff640b5fd39+113065]
+	GetHandleVerifier [0x0x7ff640b46d08+10616]
+	BaseThreadInitThunk [0x0x7fff25c97034+20]
+	RtlUserThreadStart [0x0x7fff27782651+33]

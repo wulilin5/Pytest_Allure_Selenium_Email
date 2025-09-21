@@ -1,0 +1,47 @@
+INFO     apiautotest:conftest.py:37 日志初始化成功
+INFO     apiautotest:driver.py:60 chrome 启动成功
+INFO     apiautotest:driver.py:64 https://mail.163.com/ 打开成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:213 获取元素【页面是否出现扫码登录】的文字是:
+INFO     apiautotest:driver.py:103 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="c3f97c75f77e0be42f5fcfa558022699", element="f.343B9662B0A27DC36145DC9E14CD18D9.d.A71E8280D1203A3F6AB6E29DD4CE596F.e.40")>】成功
+INFO     apiautotest:driver.py:103 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【邮箱账号或手机号码】内容成功
+INFO     apiautotest:driver.py:152 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+INFO     apiautotest:driver.py:103 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入密码】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+INFO     apiautotest:driver.py:136 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击成功
+INFO     apiautotest:driver.py:136 点击元素【新增联系人】,通过【xpath】,值是【//span[text()='新建联系人']】,点击成功
+ERROR    apiautotest:driver.py:106 定位元素【输入联系人姓名】,通过【xpath】,值是【//span[text()='姓名']/ancestor::dt/following-sibling::dd//input】,定位失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 102, in find_element
+    element = wait.until(expected_conditions.presence_of_element_located(locator))
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff640b57005+76917]
+	GetHandleVerifier [0x0x7ff640b57060+77008]
+	(No symbol) [0x0x7ff640909dea]
+	(No symbol) [0x0x7ff640960256]
+	(No symbol) [0x0x7ff64096050c]
+	(No symbol) [0x0x7ff6409b3887]
+	(No symbol) [0x0x7ff6409884af]
+	(No symbol) [0x0x7ff6409b065c]
+	(No symbol) [0x0x7ff640988243]
+	(No symbol) [0x0x7ff640951431]
+	(No symbol) [0x0x7ff6409521c3]
+	GetHandleVerifier [0x0x7ff640e2d32d+3051421]
+	GetHandleVerifier [0x0x7ff640e27983+3028467]
+	GetHandleVerifier [0x0x7ff640e4591d+3151245]
+	GetHandleVerifier [0x0x7ff640b718ce+185662]
+	GetHandleVerifier [0x0x7ff640b7978f+218111]
+	GetHandleVerifier [0x0x7ff640b5fb84+112628]
+	GetHandleVerifier [0x0x7ff640b5fd39+113065]
+	GetHandleVerifier [0x0x7ff640b46d08+10616]
+	BaseThreadInitThunk [0x0x7fff25c97034+20]
+	RtlUserThreadStart [0x0x7fff27782651+33]

@@ -1,0 +1,40 @@
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+INFO     apiautotest:driver.py:136 点击元素【首页】,通过【xpath】,值是【//nav[@id="dvMultiTabWrapper"]/div[1]/ul/li[1]/div[3]】,点击成功
+INFO     apiautotest:driver.py:136 点击元素【写信】,通过【xpath】,值是【//li[@role='button' and .//span[text()='写 信']]】,点击成功
+INFO     apiautotest:driver.py:103 定位元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,定位成功
+ERROR    apiautotest:driver.py:154 向元素【收件人】,通过【xpath】,值是【//*[@id="dvContainer"]/div[2]/div[1]/section/header/div[1]/div[1]/div/div[2]/div/input】,输入【】失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 149, in send_keys
+    element.clear()
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\webelement.py", line 92, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\webelement.py", line 693, in _execute
+    return self._parent.execute(command, params)
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=138.0.7204.102)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff640b57005+76917]
+	GetHandleVerifier [0x0x7ff640b57060+77008]
+	(No symbol) [0x0x7ff640909c1c]
+	(No symbol) [0x0x7ff640955727]
+	(No symbol) [0x0x7ff64098846a]
+	(No symbol) [0x0x7ff640952c16]
+	(No symbol) [0x0x7ff640988680]
+	(No symbol) [0x0x7ff6409b065c]
+	(No symbol) [0x0x7ff640988243]
+	(No symbol) [0x0x7ff640951431]
+	(No symbol) [0x0x7ff6409521c3]
+	GetHandleVerifier [0x0x7ff640e2d32d+3051421]
+	GetHandleVerifier [0x0x7ff640e27983+3028467]
+	GetHandleVerifier [0x0x7ff640e4591d+3151245]
+	GetHandleVerifier [0x0x7ff640b718ce+185662]
+	GetHandleVerifier [0x0x7ff640b7978f+218111]
+	GetHandleVerifier [0x0x7ff640b5fb84+112628]
+	GetHandleVerifier [0x0x7ff640b5fd39+113065]
+	GetHandleVerifier [0x0x7ff640b46d08+10616]
+	BaseThreadInitThunk [0x0x7fff25c97034+20]
+	RtlUserThreadStart [0x0x7fff27782651+33]

@@ -1,0 +1,21 @@
+{
+  "contact_000": {
+    "name": "jack",
+    "email": "jack@qq.com",
+    "success": true,
+    "expect_result": null
+  },
+  "contact_001": {
+    "name": "Bob",
+    "email": "bob@qq.com",
+    "success": true,
+    "expect_result": null
+  },
+  "contact_002": {
+    "name": "",
+    "email": "",
+    "success": false,
+    "expect_result": "请正确填写邮件地址。"
+  }
+
+}

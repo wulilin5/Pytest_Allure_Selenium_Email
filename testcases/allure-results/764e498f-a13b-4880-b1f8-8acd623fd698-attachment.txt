@@ -1,0 +1,13 @@
+INFO     apiautotest:conftest.py:37 日志初始化成功
+INFO     apiautotest:driver.py:60 chrome 启动成功
+INFO     apiautotest:driver.py:64 https://mail.163.com/ 打开成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:236 获取元素【页面是否出现扫码登录】的文字是: 扫码登录
+ERROR    apiautotest:driver.py:138 点击元素【点击密码登录】,通过【id】,值是【switchAccountLogin】,点击失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 135, in click
+    wait.until(click_success(locator))
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:

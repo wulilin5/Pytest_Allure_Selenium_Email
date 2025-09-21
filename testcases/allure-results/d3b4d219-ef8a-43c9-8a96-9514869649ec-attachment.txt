@@ -1,0 +1,23 @@
+INFO     apiautotest:conftest.py:37 日志初始化成功
+INFO     apiautotest:driver.py:60 chrome 启动成功
+INFO     apiautotest:driver.py:64 https://mail.163.com/ 打开成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:103 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+INFO     apiautotest:driver.py:213 获取元素【页面是否出现扫码登录】的文字是:
+INFO     apiautotest:driver.py:103 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+INFO     apiautotest:driver.py:160 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="fde2711bcd5cce7c68a0f46acf65d147", element="f.AAFEA7B0ECFED9B210DE2A0CB31B142E.d.2EBAA6B76C1405C6681577DC67B8C692.e.34")>】成功
+INFO     apiautotest:driver.py:103 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【邮箱账号或手机号码】内容成功
+INFO     apiautotest:driver.py:152 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+INFO     apiautotest:driver.py:103 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+INFO     apiautotest:driver.py:150 清除元素【输入密码】内容成功
+INFO     apiautotest:driver.py:152 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+INFO     apiautotest:driver.py:136 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+INFO     apiautotest:driver.py:167 切换到默认页面成功
+ERROR    apiautotest:driver.py:138 点击元素【写信】,通过【xpath】,值是【//li[@role='button' and .//span[text()='写 信']]】,点击失败
+Traceback (most recent call last):
+  File "D:\wll\job\web_xm\Pytest_Allure_Selenium_Email\common\driver.py", line 135, in click
+    wait.until(click_success(locator))
+  File "D:\dev\python\python3.10.4\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:

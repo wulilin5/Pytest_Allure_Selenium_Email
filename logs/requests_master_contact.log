@@ -1,0 +1,61 @@
+2025-07-23 20:47:46,218 INFO [apiautotest] [conftest.py (aalogger_init:37)] - 日志初始化成功
+2025-07-23 20:47:47,965 INFO [apiautotest] [driver.py (__init__:60)] - chrome 启动成功
+2025-07-23 20:47:51,224 INFO [apiautotest] [driver.py (get:64)] - https://mail.163.com/ 打开成功
+2025-07-23 20:47:51,248 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 20:47:51,270 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【页面是否出现扫码登录】,通过【css selector】,值是【h2.loginbox-title】,定位成功
+2025-07-23 20:47:51,304 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【页面是否出现扫码登录】的文字是:
+2025-07-23 20:47:51,316 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【进入frame框架】,通过【xpath】,值是【//*[@id="loginDiv"]/iframe】,定位成功
+2025-07-23 20:47:51,338 INFO [apiautotest] [driver.py (switch_to_frame:160)] - 切换到iframe:【<selenium.webdriver.remote.webelement.WebElement (session="0281440c8cdfe2303f0372d621aa494c", element="f.4257002CD5E3993349973A5129C3C31F.d.F5D7C6A10FA518C5E7370BB2BFFF22E4.e.37")>】成功
+2025-07-23 20:47:51,349 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,定位成功
+2025-07-23 20:47:51,379 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【邮箱账号或手机号码】内容成功
+2025-07-23 20:47:51,449 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【邮箱账号或手机号码】,通过【xpath】,值是【//input[@placeholder='邮箱账号或手机号码']】,输入【wulilin55】成功
+2025-07-23 20:47:51,460 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,定位成功
+2025-07-23 20:47:51,483 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入密码】内容成功
+2025-07-23 20:47:51,567 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入密码】,通过【xpath】,值是【//input[@placeholder='输入密码']】,输入【Wu@200255Lilin】成功
+2025-07-23 20:47:51,708 INFO [apiautotest] [driver.py (click:136)] - 点击元素【登录】,通过【xpath】,值是【//a[@id='dologin']】,点击成功
+2025-07-23 20:47:51,709 INFO [apiautotest] [driver.py (switch_to_default:167)] - 切换到默认页面成功
+2025-07-23 20:47:55,136 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击成功
+2025-07-23 20:47:57,196 INFO [apiautotest] [driver.py (click:136)] - 点击元素【新增联系人】,通过【xpath】,值是【//span[text()='新建联系人']】,点击成功
+2025-07-23 20:47:59,214 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:47:59,227 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人姓名】内容成功
+2025-07-23 20:47:59,243 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,输入【jack】成功
+2025-07-23 20:48:01,256 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:48:01,268 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人手机号】内容成功
+2025-07-23 20:48:01,302 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,输入【jack@qq.com】成功
+2025-07-23 20:48:03,350 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击确认】,通过【xpath】,值是【//span[text()='确 定']】,点击成功
+2025-07-23 20:48:04,402 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【获取成功信息】,通过【xpath】,值是【//span[text()='您已成功添加联系人']】,定位成功
+2025-07-23 20:48:04,408 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【获取成功信息】的文字是:您已成功添加联系人
+2025-07-23 20:48:04,719 INFO [apiautotest] [driver.py (click:136)] - 点击元素【选中联系人复选框】,通过【xpath】,值是【//nobr[@title='jack@qq.com']/ancestor::tr//span[@role='checkbox']】,点击成功
+2025-07-23 20:48:05,785 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击删除按钮】,通过【xpath】,值是【//span[text()='删 除']】,点击成功
+2025-07-23 20:48:06,827 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击确定】,通过【xpath】,值是【//span[text()='确 定']】,点击成功
+2025-07-23 20:48:08,842 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【获取删除成功信息】,通过【xpath】,值是【//span[text()='您已成功删除联系人']】,定位成功
+2025-07-23 20:48:08,846 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【获取删除成功信息】的文字是:您已成功删除联系人
+2025-07-23 20:48:10,874 INFO [apiautotest] [driver.py (switch_to_default:167)] - 切换到默认页面成功
+2025-07-23 20:48:10,905 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击成功
+2025-07-23 20:48:12,946 INFO [apiautotest] [driver.py (click:136)] - 点击元素【新增联系人】,通过【xpath】,值是【//span[text()='新建联系人']】,点击成功
+2025-07-23 20:48:14,964 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:48:14,977 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人姓名】内容成功
+2025-07-23 20:48:14,991 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,输入【Bob】成功
+2025-07-23 20:48:17,006 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:48:17,017 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人手机号】内容成功
+2025-07-23 20:48:17,048 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,输入【bob@qq.com】成功
+2025-07-23 20:48:19,087 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击确认】,通过【xpath】,值是【//span[text()='确 定']】,点击成功
+2025-07-23 20:48:19,347 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【获取成功信息】,通过【xpath】,值是【//span[text()='您已成功添加联系人']】,定位成功
+2025-07-23 20:48:19,354 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【获取成功信息】的文字是:您已成功添加联系人
+2025-07-23 20:48:19,636 INFO [apiautotest] [driver.py (click:136)] - 点击元素【选中联系人复选框】,通过【xpath】,值是【//nobr[@title='bob@qq.com']/ancestor::tr//span[@role='checkbox']】,点击成功
+2025-07-23 20:48:20,677 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击删除按钮】,通过【xpath】,值是【//span[text()='删 除']】,点击成功
+2025-07-23 20:48:21,711 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击确定】,通过【xpath】,值是【//span[text()='确 定']】,点击成功
+2025-07-23 20:48:23,726 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【获取删除成功信息】,通过【xpath】,值是【//span[text()='您已成功删除联系人']】,定位成功
+2025-07-23 20:48:23,730 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【获取删除成功信息】的文字是:您已成功删除联系人
+2025-07-23 20:48:25,744 INFO [apiautotest] [driver.py (switch_to_default:167)] - 切换到默认页面成功
+2025-07-23 20:48:25,772 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击通讯录】,通过【xpath】,值是【//div[text()='通讯录']】,点击成功
+2025-07-23 20:48:27,820 INFO [apiautotest] [driver.py (click:136)] - 点击元素【新增联系人】,通过【xpath】,值是【//span[text()='新建联系人']】,点击成功
+2025-07-23 20:48:29,833 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:48:29,844 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人姓名】内容成功
+2025-07-23 20:48:29,853 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人姓名】,通过【xpath】,值是【//label[text()='姓名']/ancestor::dt/following-sibling::dd//input】,输入【】成功
+2025-07-23 20:48:31,865 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,定位成功
+2025-07-23 20:48:31,877 INFO [apiautotest] [driver.py (send_keys:150)] - 清除元素【输入联系人手机号】内容成功
+2025-07-23 20:48:31,897 INFO [apiautotest] [driver.py (send_keys:152)] - 向元素【输入联系人手机号】,通过【xpath】,值是【//span[text()='电子邮箱']/ancestor::dt/following-sibling::dd//input】,输入【】成功
+2025-07-23 20:48:33,941 INFO [apiautotest] [driver.py (click:136)] - 点击元素【点击确认】,通过【xpath】,值是【//span[text()='确 定']】,点击成功
+2025-07-23 20:48:33,950 INFO [apiautotest] [driver.py (find_element:103)] - 定位元素【获取错误信息】,通过【xpath】,值是【//span[contains(text(),'请正确填写')]】,定位成功
+2025-07-23 20:48:33,953 INFO [apiautotest] [driver.py (get_text:213)] - 获取元素【获取错误信息】的文字是:请正确填写邮件地址。
