@@ -33,7 +33,7 @@ class TestContact:
         global global_var
         if global_var == 0:
             global_var = 1
-            LoginActions().Login("wulilin55", "Wu@200255Lilin")
+            LoginActions().Login("", "")
 
         DriverOperate.globalDriverOperate.switch_to_default()
 
