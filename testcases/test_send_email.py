@@ -32,7 +32,7 @@ class TestSend:
         global global_var
         if global_var == 0:
             global_var = 1
-            LoginActions().Login("wulilin55", "Wu@200255Lilin")
+            LoginActions().Login("", "")
         # PageSendEmail().switch_frame_to_default()
         DriverOperate.globalDriverOperate.switch_to_default()
 
