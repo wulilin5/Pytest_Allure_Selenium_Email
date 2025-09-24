@@ -20,7 +20,6 @@ def get_data_login(path):
 @allure.epic("163邮箱网站登录测试")
 @allure.feature("登录测试")
 class TestLogin:
-    # username, password = "15135976034", "shs092121"
     parameter = get_data_login(login_json)
 
     @pytest.mark.parametrize("username, password, success, expect_result", parameter)
